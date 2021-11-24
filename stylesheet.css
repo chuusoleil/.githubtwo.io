@@ -1,0 +1,236 @@
+html {
+    font-size: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    color: #333333;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}    
+
+img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
+
+
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+#header .site-title {
+    padding: 20px 16px;
+    line-height: 1px;
+}
+
+#header .site-title a {
+    display: inline-block;
+}
+
+.readmore {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.readmore a {
+    border-bottom: 1px solid #333333;
+}
+
+
+
+#header {
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 10;
+}
+
+#header ul {
+    display: flex;
+}
+
+#header li {
+    font-size: 0.875rem;
+    padding: 10px 60px 10px 0;
+}
+
+#header li a {
+    color: #ffffff;
+}
+
+#navi {
+    background-color: #333333;
+}
+
+
+
+#pickup {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    margin-bottom: 60px;
+}
+
+#pickup article {
+    width: 32%;
+}
+
+#pickup h2 {
+    font-size: 1rem;
+}
+
+
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+#main {
+    width: 65%;
+}
+
+#main article {
+    margin-bottom: 80px;
+}
+
+#main .article-title {
+    font-size: 1.5rem;
+    margin: 10px 0 15px 0;
+}
+
+#main ul {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#main li {
+    font-size: 0.875rem;
+    margin-right: 20px;
+}
+
+#main .text {
+    font-size: 1rem;
+    padding: 10px 40px 30px 40px;
+}
+
+
+
+#aside {
+    width: 33%;
+}
+
+.author {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.author img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.author p {
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.ranking {
+    margin-bottom: 60px;
+}
+
+.ranking p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.ranking article {
+    margin-top: 30px;
+}
+
+.side-title {
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.archive ul {
+    border-top: 1px solid #777777;
+}
+
+.archive li {
+    font-size: 0.875rem;
+    padding: 20px;
+    border-bottom: 1px solid #777777;
+}
+
+
+
+
+
+#footer {
+    background-color: #f7f7f7;
+}
+
+.footer-contents {
+    height: 473px;
+    padding: 50px 16px 50px 16px;
+    display: flex;
+    justify-content: space-between;
+}    
+
+#footer .item {
+    width: 30%;
+}
+
+.footer-title {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+
+.item p {
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+}
+
+.about-list li {
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+}
+
+.menu-list {
+    border-top: 1px solid #777777;
+}
+
+.menu-list li {
+    font-size: 0.875rem;
+    padding: 15px;
+    border-bottom: 1px solid #777777;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
