@@ -26,6 +26,11 @@ a {
     color: #333333;
 }
 
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 
 
 
@@ -93,6 +98,12 @@ a {
 
 #pickup article {
     width: 32%;
+}
+
+.article-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 #pickup h2 {
